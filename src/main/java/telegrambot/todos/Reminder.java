@@ -34,7 +34,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.vdurmont.emoji.EmojiParser;
 
 import telegrambot.familyassistant.Emoji;
-import telegrambot.familyassistant.FamilyAssistant;
 import telegrambot.familyassistant.FamilyAssistantBot;
 /**
  * Класс-обертка (фасад), "прослойка" между бот-командами и классами фреймворка Quartz. Фасад - потому, что весь мощный, гибкий и

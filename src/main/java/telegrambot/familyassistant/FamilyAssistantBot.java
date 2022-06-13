@@ -60,8 +60,7 @@ public class FamilyAssistantBot extends TelegramLongPollingCommandBot {
     public FamilyAssistantBot() {
         super();
         // Bot-token берем из соответствующей переменной окружения, которую нужно предварительно создать и присвоить ей значение
-        this.botToken = (System.getenv("BD_FAMILY_ASSISTANT_BOT_TOKEN") == null 
-                ? "5233864273:AAFxZ3JdeVnJpssGwvlt5AeLezJDRQlqRzw" : System.getenv("BD_FAMILY_ASSISTANT_BOT_TOKEN"));
+        this.botToken = System.getenv("BD_FAMILY_ASSISTANT_BOT_TOKEN");
         try {
 			getConfigStorage().readConfig(workingDir + CONFIG);
 		} catch (IOException e) {

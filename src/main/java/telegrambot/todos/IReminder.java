@@ -2,9 +2,6 @@ package telegrambot.todos;
 
 import java.time.temporal.ChronoUnit;
 import java.util.List;
-import java.util.Map;
-import java.util.NavigableSet;
-
 import org.quartz.SchedulerException;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
